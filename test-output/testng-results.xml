@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-24T19:19:46 IST" name="ExtentSuite" finished-at="2025-04-24T19:22:52 IST" duration-ms="186516">
+    <groups>
+      <group name="regression">
+        <method signature="TC_002_Verify_Login.verifyLog(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC_002_Verify_Login@3bd82cf5]" name="verifyLog" class="TestCase.TC_002_Verify_Login"/>
+      </group> <!-- regression -->
+      <group name="master">
+        <method signature="TC_002_Verify_Login.verifyLog(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC_002_Verify_Login@3bd82cf5]" name="verifyLog" class="TestCase.TC_002_Verify_Login"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2025-04-24T19:19:46 IST" name="Functional" finished-at="2025-04-24T19:22:52 IST" duration-ms="186516">
+      <class name="TestCase.TC_002_Verify_Login">
+        <test-method is-config="true" signature="launchpad(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC_002_Verify_Login@3bd82cf5]" started-at="2025-04-24T19:19:46 IST" name="launchpad" finished-at="2025-04-24T19:20:32 IST" duration-ms="46240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchpad -->
+        <test-method signature="verifyLog(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC_002_Verify_Login@3bd82cf5]" started-at="2025-04-24T19:20:36 IST" name="verifyLog" data-provider="LoginData" finished-at="2025-04-24T19:21:08 IST" duration-ms="32093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[p.dapide]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Welcome@123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLog -->
+        <test-method signature="verifyLog(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC_002_Verify_Login@3bd82cf5]" started-at="2025-04-24T19:21:08 IST" name="verifyLog" data-provider="LoginData" finished-at="2025-04-24T19:21:40 IST" duration-ms="31860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dileep.kumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diesel1234****]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLog -->
+        <test-method signature="verifyLog(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC_002_Verify_Login@3bd82cf5]" started-at="2025-04-24T19:21:40 IST" name="verifyLog" data-provider="LoginData" finished-at="2025-04-24T19:22:12 IST" duration-ms="31818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[faikh.shaik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ColdStart123***]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLog -->
+        <test-method signature="verifyLog(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC_002_Verify_Login@3bd82cf5]" started-at="2025-04-24T19:22:12 IST" name="verifyLog" data-provider="LoginData" finished-at="2025-04-24T19:22:52 IST" duration-ms="40248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaltumkar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Calendar@2025***]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLog -->
+        <test-method is-config="true" signature="dismantle()[pri:0, instance:TestCase.TC_002_Verify_Login@3bd82cf5]" started-at="2025-04-24T19:22:52 IST" name="dismantle" finished-at="2025-04-24T19:22:52 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dismantle -->
+      </class> <!-- TestCase.TC_002_Verify_Login -->
+    </test> <!-- Functional -->
+  </suite> <!-- ExtentSuite -->
+</testng-results>
