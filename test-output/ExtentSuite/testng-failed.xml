@@ -17,9 +17,16 @@
         <methods>
           <include name="dismantle"/>
           <include name="launchpad"/>
-          <include name="verifyLog" invocation-numbers="0 1 2 3"/>
+          <include name="verifyLog" invocation-numbers="3"/>
         </methods>
       </class> <!-- TestCase.TC_002_Verify_Login -->
+      <class name="TestCase.TC_003_ChangePassword">
+        <methods>
+          <include name="dismantle"/>
+          <include name="changepass"/>
+          <include name="launchpad"/>
+        </methods>
+      </class> <!-- TestCase.TC_003_ChangePassword -->
     </classes>
   </test> <!-- Functional(failed) -->
 </suite> <!-- Failed suite [ExtentSuite] -->

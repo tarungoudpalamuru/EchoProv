@@ -20,6 +20,7 @@
     <classes>
       <class name="TestCase.TC_001_LoginVerify"/>
       <class name="TestCase.TC_002_Verify_Login"/>
+      <class name="TestCase.TC_003_ChangePassword"/>
       <!-- Add other test classes as needed -->
     </classes>
   </test>

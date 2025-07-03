@@ -22,7 +22,15 @@ public class TC_001_LoginVerify extends BaseClass
 		lp.putPass(p.getProperty("passwo"));   //getting password from propertiy file
 		lp.clickBtn();
 		
-		lp.Handleauthcode();
+		 if (lp.isAuthCodeVisible())
+	        {
+	            logs.info("🔐 AuthCode field appeared. Entering OTP...");
+	            lp.Handleauthcode();
+	        } 
+	        else 
+	        {
+	            logs.info("✅ No AuthCode field. Proceeding without OTP...");
+	        }
 		
 		logs.info("**[Info]Succesfully Entered credintials and clicked on login button***");
 		
